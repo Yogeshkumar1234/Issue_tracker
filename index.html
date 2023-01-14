@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>RESUME</title>
+</head>
+<body>
+    
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </nav>
+        <section >
+            <div class="box">
+        <form action="" method="get" >
+            <label for="description">Description :</label><br>
+            <input type="text" id="description" class="area" placeholder="description"><br><br>
+            <label for="severity">Severity : </label><br>
+            <select id="severity" name="severity" class="area">
+               <option value="select_one">Select One</option>
+               <option value="high">High</option>
+               <option value="medium">Medium</option>
+               <option value="low">Low</option>
+            </select><br><br>
+            <label for="assigned">Assigned To :</label><br>
+            <input type="text" id="assigned" class="area" placeholder="Enter Response"><br><br>
+            <button class="add_button">Add</button>
+        </form>
+    </div>
+    </section>
+    
+</body>
+<script src="script.js"></script>
+</html>
